@@ -23,6 +23,7 @@ squareupUrlConVersion = "4.12.0"
 gsonVersion = "2.10.1"
 apacheCommonsVersion = "3.8"
 libphonenumberVersion = "8.8.0"
+vanniktechVersion = "0.29.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -69,4 +70,5 @@ libphonenumber = {group = "com.googlecode.libphonenumber", name = "libphonenumbe
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
+vanniktech-maven = { id = "com.vanniktech.maven.publish", version.ref = "vanniktechVersion" }
 
